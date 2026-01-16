@@ -24,7 +24,7 @@ Users can add tasks, mark them as completed, and remove them using swipe or a de
 - **Framework:** Flutter
 - **Language:** Dart
 - **Platforms tested:** Windows, Web (Chrome/Edge)  
-  (Android supported via Flutter)
+  Android (supported via Flutter)
 
 ---
 
