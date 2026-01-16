@@ -38,6 +38,8 @@ lib/
   pages/
     todo_homapage.dart     # Main screen: state + UI + add/toggle/delete logic
 
+
+
 Getting Started
 1. Clone the repository
 git clone https://github.com/Aabiskar-subedi/todo-app.git
