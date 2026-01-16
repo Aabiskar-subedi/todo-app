@@ -5,9 +5,13 @@ Users can add tasks, mark them as completed, and remove them using swipe or a de
 
 ---
 ##  Screenshot
-windows 
+* Windows 
   <img width="1911" height="1007" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/c8a2784e-ccb9-4ee5-ba11-08cbb0e9a8d6" />
-Android mobile
+
+
+
+  
+* Android mobile
 <img width="564" height="943" alt="{3B57A0B0-2A27-43D6-A00A-0C8F09F5FB66}" src="https://github.com/user-attachments/assets/8d028757-826e-43f1-bc6e-2f6f42846eb1" />
 
   
