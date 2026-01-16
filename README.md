@@ -48,6 +48,7 @@ web/                     # Web support (HTML, manifest, icons)
 
 
 ```
+```text
 Getting Started
 1. Clone the repository
 git clone https://github.com/Aabiskar-subedi/todo-app.git
