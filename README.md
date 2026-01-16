@@ -1,16 +1,58 @@
-# todo_app
+# Todo App 
 
-A new Flutter project.
+A minimal todo application built with **Flutter**.  
+Users can add tasks, mark them as completed, and remove them using swipe or a delete button.
 
-## Getting Started
+---
+##  Screenshot
+  <img width="1911" height="1007" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/c8a2784e-ccb9-4ee5-ba11-08cbb0e9a8d6" />
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add new tasks using an input field + **Add** button
+- Mark tasks as **done / not done** with a checkbox
+- Strike-through style for completed tasks
+- Swipe left to delete a task (`Dismissible`)
+- Delete via trash icon
+- Snackbar confirmation when a task is added
+- Simple, centered layout that works on desktop ,web and mobile 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **Platforms tested:** Windows, Web (Chrome/Edge)  
+  (Android supported via Flutter)
+
+---
+
+##  Project Structure
+
+text
+lib/
+  main.dart                # App entry point, MaterialApp setup
+  models/
+    todo.dart              # Todo data model (id, title, isDone)
+  pages/
+    todo_homapage.dart     # Main screen: state + UI + add/toggle/delete logic
+
+Getting Started
+1. Clone the repository
+git clone https://github.com/Aabiskar-subedi/todo-app.git
+cd todo-app
+
+2. Install dependencies
+flutter pub get
+
+3. Run the app
+
+Windows:
+
+flutter run -d windows
+
+
+Web (Chrome):
+
+flutter run -d chrome
