@@ -66,13 +66,23 @@ cd todo-app
 2. Install dependencies
 flutter pub get
 
-3. Run the app
 
-Windows:
+3 Run on Android (Emulator or Physical device)
+
+Start an emulator (Android Studio > Device Manager) or connect your phone with USB debugging, then:
+
+flutter devices
+flutter run
+
+If multiple devices show, choose one:
+
+flutter run -d <device_id> [eg flutter run -d emulator-2345]
+
+4. Run the app Windows:
 
 flutter run -d windows
 
 
-Web (Chrome):
+5 Web (Chrome):
 
 flutter run -d chrome
